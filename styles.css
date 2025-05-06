@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Roboto", sans-serif;
+}
+header{
+    height: 90vh;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/Hero.webp);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e9e6f7;
+
+}
+.logo-img{
+    height: 25px;
+    width: 25px;
+
+}
+nav{
+background-color: #330c2f;
+color: #f5a6e6;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 25px;
+padding-right: 40px;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 25px;   
+}
+.navbar a{
+    text-decoration: none;
+    color: #f5a6e6;
+    padding: 8px 12px;
+
+}
+.navbar a:hover{
+    background-color: #f5b0e8;
+    color: #330c2f;
+    border-radius: 8px;
+}
+.Home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+    gap: 25px;
+    font-size:1.1rem;
+}
+.Home-content p{
+    font-weight:500;
+    font-size: 1.1rem;
+}
+button{
+    background-color:#f5a6e6;
+    padding:8px 16px;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: inset;
+}
+button:hover{
+    background-color: #330c2f;
+    color: #f5a6e6;
+    font-size: 1rem;
+}
+
