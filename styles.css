@@ -8,14 +8,14 @@ body{
     font-family:"Roboto", sans-serif;
 }
 header{
-    height: 90vh;
+    height: 100vh;
     background-image: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./images/Hero.webp);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #e9e6f7;
+    color: white;
 
 }
 .logo-img{
@@ -25,11 +25,10 @@ header{
 }
 nav{
 background-color: #330c2f;
-color: #f5a6e6;
 display:flex;
 justify-content: space-between;
 align-items: center;
-padding: 25px;
+padding: 22px;
 padding-right: 40px;
 }
 
@@ -40,13 +39,14 @@ padding-right: 40px;
 }
 .navbar a{
     text-decoration: none;
-    color: #f5a6e6;
+    color: #f5b0e8;
     padding: 8px 12px;
+    margin-right: 45px;
 
 }
 .navbar a:hover{
     background-color: #f5b0e8;
-    color: #330c2f;
+    color: #44103f;
     border-radius: 8px;
 }
 .Home-content{
@@ -54,14 +54,16 @@ padding-right: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 85vh;
     text-align: center;
     gap: 25px;
-    font-size:1.1rem;
+    font-size:1.5rem;
+    font-style: italic;
+    font-weight: 500;
 }
 .Home-content p{
     font-weight:500;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 button{
     background-color:#f5a6e6;
@@ -69,10 +71,45 @@ button{
     margin-top: 10px;
     border-radius: 12px;
     box-shadow: inset;
+    font-size: 1.2rem;
 }
 button:hover{
     background-color: #330c2f;
     color: #f5a6e6;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
+.AboutUs{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 100px;
+    max-width:100%;
+    height: 70vh;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+    color: #330c2f;
+    font-weight:700;
+    font-size: 2rem;
+}
+.Abouttext,
+.Aboutimg{
+    width:50%
+} 
+.Abouttext{
+   align-items:center;
+   margin-top: 50px;
+   font-style: italic;
+}
+.AboutUs img{
+    height: 100%;
+    border-top-left-radius:55%;
+    border-bottom-right-radius: 55%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;  
+    width: 100%;
 
+}
+.AboutUs img:hover{
+
+}
